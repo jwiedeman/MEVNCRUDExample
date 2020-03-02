@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/auth/signup
+content-type: application/json
+
+{
+    "username": "1",
+    "email": "1",
+    "password":"1",
+    "roles":["user","moderator","admin"]
+}
